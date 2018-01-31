@@ -71,7 +71,7 @@ gdcParseMetadata <- function(metafile=NULL, project.id,
         character(1))
     
     
-    gender <- vapply(seq_len(nSam), function(i) 
+    #gender <- vapply(seq_len(nSam), function(i) 
         null2naFun(metadata[[i]]$cases[[1]]$demographic$gender), character(1))
     #race <- sapply(1:length(metadata), function(i) 
     #metadata[[i]]$cases[[1]]$demographic$race)
